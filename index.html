@@ -1,0 +1,997 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+
+    <!-- Css Buatan -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>Primaplus</title>
+  </head>
+  <body>
+    <!-- Bar Navigasi -->
+    <header class="fixed-top">
+      <div class="container-md">
+        <div class="head my-3">
+            <div class="navbar navbar-expand-lg navbar-light head__costum-nav">
+              
+              <!-- Logo Website / ubah soucre untuk mengubah gambar logo -->
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <img src="./assets/logo.png" alt="Logo Primaplus">
+              </a>
+              
+              <!-- Icon menu website saat tampilan mobile / ubah soucre untuk mengubah icon -->
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span><img src="./assets/toggler.png"  alt="Icon Menu"></span>
+              </button>
+              
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" id="navigasi">
+                  
+                  <!-- List menu navigasi ubah keterangan setelah tag '>' untuk mengubah nama menu dan ubah hasil 'href' untuk page tujuan menu -->
+                  <!-- onclick merupakan fungsi untuk memindahkan keterangan/class 'active' -->
+                  <!-- Untuk menambah menu copy dari '<li' sampai '</li>' -->
+                  <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bolder active" onclick="moveMenuNav(this)">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#problem" class="nav-link font-weight-bolder" onclick="moveMenuNav(this)">Permasalahan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#langkah" class="nav-link font-weight-bolder" onclick="moveMenuNav(this)">Langkah</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bolder" onclick="moveMenuNav(this)">Daftar</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link font-weight-bolder" onclick="moveMenuNav(this)">Hubungi Kami</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Welcome Screen merupakan screen paling atas atau awal website --> 
+    <div class="welcome-screen" id="home">
+      <div class="container-md">
+        <div class="row custom-section d-flex align-items-center">
+          <div class="col-12 col-lg-14 screen-text">
+
+            <!-- Silahkan ubah text di dalam <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+            <h1>Primaplus</h1>
+            <h1>Samarinda Seberang</h1>
+            <p>Primagama Samarinda Seberang merupakan bimbingan belajar terbaik di kota Samarinda Kalimantan Timur. Berdiri sejak 10 Maret 1982, telah berhasil mendampingi lebih dari 5 JUTA Siswa, untuk meningkatkan Pretasi akademik, melanjutkan ke sekolah favorit</p>
+  
+            <a href="#daftar" class="button-daftar">Daftar Sekarang</a>
+          </div>
+          <div class="col-12 col-lg-8 screen-image">
+              
+              <!-- Source untuk banner di samping text -->
+            <img src="./assets/main_banner.png" alt="">
+          </div>
+        </div>
+        </div>
+    </div>
+  
+    <!-- Screen kedua website berisi permasalahan -->
+    <div class="screen-2" id="problem">
+      <div class="container-md">
+        <div class="row custom-section d-flex align-items-center">
+          
+          <!-- Silahkan ubah text di dalam <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+          <div class="col-12 col-lg-14 screen-text">
+            <h1>Permasalahan Yang Sering</h1>
+            <h1>Dihadapi Siswa</h1>
+            <p>
+              <ul>
+                <li>Materi yang dibahas disekolah sering kurang tuntas</li>
+                <li>Kurang memahami materi yang diajarkan disekolah</li>
+                <li>Sering kesulitan dalam pengerjaan Tugas dan PR</li>
+                <li>Belajar dirumah tidak ada yang bantu mengajari</li>
+              </ul>
+            </p>
+            <p>Siswa tidak memiliki pendamping belajar, yang dapat membantu mengatasi kesulitan belajar masing-masing.</p>
+          </div>
+  
+          <!-- Silahkan ubah text di dalam <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+          <div class="col-12 col-lg-8 screen-image">
+            <img src="./assets/banner-screen-2.png" alt="">
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  
+    <!-- Screen ketiga website berisi solusi-->
+    <div class="screen-3">
+      <div class="container-md">
+        <div class="row custom-section d-flex align-items-center">
+          <div class="col-12 col-lg-14 screen-text">
+  
+            <!-- Silahkan ubah text di dalam <h3>...</h3> atau <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+            <h3>Solusi Primaplus</h3>
+            <h1>Telah dibuka</h1>
+            <h1>Program Bimbel Untuk Jenjang</h1>
+            <h1>SD, SMP, SMA & Alumni</h1>
+            <p>
+              <ul>
+                <li>Membantu Pemahaman Materi & Tugas Sekolah</li>
+                <li>Mempersiapkan Siswa menghadapi Ujian Akhir & Seleksi</li>
+                <li>Mengasah kecerdasan anak & Menjaga Motivasi Belajar</li>
+                <li>Memberikan konsultasi pemilihan Sekolah & Jurusan di PTN</li>
+              </ul>
+            </p>
+  
+            <a href="#daftar" class="button-daftar">Daftar Sekarang</a>
+          </div>
+          <div class="col-12 col-lg-8 screen-image">
+              
+            <!-- Source untuk banner di samping text -->
+            <img src="./assets/primagama2.png" alt="">
+          </div>
+        </div>
+      </div> 
+    </div> 
+    
+   
+    <!-- Screen keempat website berisi alur-->
+    <div class="screen-4" id="langkah">
+      <div class="container-md">
+        <div class="row custom-section d-flex align-items-center">
+            <div class="container-fluid blue-bg">
+              <div class="container">
+                <div class="col-12 col-lg-14 screen-text">
+  
+                  <!-- Silahkan ubah text di dalam <h3>...</h3> atau <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+                  <h3>Bagaimana Proses Pendampingannya</h3>
+                  <h1>6 Langkah Proses Pendampingan Belajar di Primaplus</h1>
+          
+                </div>
+                <!--first section-->
+                <div class="row align-items-center how-it-works">
+                  <div class="col-2 text-center bottom">
+                    <div class="circle"><img src="./assets/lagnkah1.png" alt="langkah1"></div>
+                  </div>
+                  <div class="col-8 text-left">
+                    <h5>Siswa Mendaftar</h5>
+                    <p>Datang langsung ke kantor Primaplus terdekat atau daftar online</p>
+                  </div>
+                </div>
+                <!--path between 1-2-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner top-right"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr/>
+                  </div>
+                  <div class="col-2">
+                    <div class="corner left-bottom"></div>
+                  </div>
+                </div>
+                <!--second section-->
+                <div class="row align-items-center justify-content-end how-it-works">
+                  <div class="col-8 text-right">
+                    <h5>Sarana Belajar</h5>
+                    <p>Siswa mendapatkan master book, smart exercise, user di EMS & jadwal KBM.</p>
+                  </div>
+                  <div class="col-2 text-center full">
+                    <div class="circle"><img src="./assets/lagnkah2.png" alt="langkah2"></div>
+                  </div>
+                </div>
+                <!--path between 2-3-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner right-bottom"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr/>
+                  </div>
+                  <div class="col-2">
+                    <div class="corner top-left"></div>
+                  </div>
+                </div>
+                <!--third section-->
+                <div class="row align-items-center how-it-works">
+                  <div class="col-2 text-center top">
+                    <div class="circle"><img src="./assets/lagnkah3.png" alt=""></div>
+                  </div>
+                  <div class="col-8 text-left">
+                    <h5>Orientasi Siswa & KBM</h5>
+                    <p>Mengikuti AMT, belajar dengan I-Smart handal dengan metode Smart Solution.</p>
+                  </div>
+                </div>
+                <!--path between 3-4-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner top-right"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr/>
+                  </div>
+                  <div class="col-2">
+                    <div class="corner left-bottom"></div>
+                  </div>
+                </div>
+                <!--fourth section-->
+                <div class="row align-items-center justify-content-end how-it-works">
+                  <div class="col-8 text-right">
+                    <h5>Evaluasi</h5>
+                    <p>Smart Test dilakukan per Tema atau per Bab dengan format CBT dan PBT.</p>
+                  </div>
+                  <div class="col-2 text-center full">
+                    <div class="circle"><img src="./assets/lagnkah4.png" alt="langkah2"></div>
+                  </div>
+                </div>
+                <!--path between 4-5-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner right-bottom"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr/>
+                  </div>
+                  <div class="col-2">
+                    <div class="corner top-left"></div>
+                  </div>
+                </div>
+                <!--fiveth section-->
+                <div class="row align-items-center how-it-works">
+                  <div class="col-2 text-center top">
+                    <div class="circle"><img src="./assets/lagnkah5.png" alt=""></div>
+                  </div>
+                  <div class="col-8 text-left">
+                    <h5>Konsultasi Siswa</h5>
+                    <p>Konsultasi kesulitan belajar & PR, konsultasi PPDB  dan pemilihan jurusan PTN.</p>
+                  </div>
+                </div>
+                <!--path between 5-6-->
+                <div class="row timeline">
+                  <div class="col-2">
+                    <div class="corner top-right"></div>
+                  </div>
+                  <div class="col-8">
+                    <hr/>
+                  </div>
+                  <div class="col-2">
+                    <div class="corner left-bottom"></div>
+                  </div>
+                </div>
+                <!--sixth section-->
+                <div class="row align-items-center justify-content-end how-it-works">
+                  <div class="col-8 text-right">
+                    <h5>Target Sukses</h5>
+                    <p>Sukses penilaian harian, penilaian akhir semester/tahun, Ujian Sekolah, SNMPTN& SBMPTN.</p>
+                  </div>
+                  <div class="col-2 text-center full">
+                    <div class="circle"><img src="./assets/lagnkah6.png" alt="langkah2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div> 
+    
+    <!-- Keunggulan -->
+    <div class="screen-5 text-center">
+      <div class="segitiga"><img src="./assets/segitiga.png" alt="segitiga"></div>
+      <div class="container-md">
+        <div class="align-items-center">
+          <div class="screen-text">
+            <!-- Silahkan ubah text di dalam <h3>...</h3> atau <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+            <h3>Keuntungan</h3>
+            <h1>Manfaat Langsung Bimbel di Primaplus</h1>
+          </div>
+          
+          <div class="row">
+            <div class="col text-center">
+              <div class="circle"><img src="./assets/keuntungan/1.png" alt="keuntungan-1"></div>
+              <div class="circle-text">
+                <h5>Memahami Materi Sekolah</h5>
+                <p>Siswa dapat lebih memahami materi pelajaran sekolah.</p>
+              </div>
+            </div>
+            
+            <div class="col text-center">
+              <div class="circle"><img style="padding-top: 17px;" src="./assets/keuntungan/2.png" alt="keuntungan-1"></div>
+              <div class="circle-text">
+                <h5>Mudah Menyelesaikan Soal</h5>
+                <p>anak mendapatkan cara menyelesaikan soal-soal dengan metode belajar Smart Solution.</p>
+              </div>
+            </div>
+  
+            <div class="col text-center">
+              <div class="circle"><img src="./assets/keuntungan/3.png" alt="keuntungan-1"></div>
+              <div class="circle-text">
+                <h5>Terlatih Mengerjakan Ujian</h5>
+                <p>Siswa terlatih mengerjakan soal dengan waktu yang terbatas sehingga siap menghadapi ujian.</p>
+              </div>
+            </div>
+  
+            <div class="col text-center">
+              <div class="circle"><img src="./assets/keuntungan/4.png" alt="keuntungan-1"></div>
+              <div class="circle-text">
+                <h5>Konsultasi dengan I-Smart</h5>
+                <p>Siswa dapat berkonsultasi tentang cara belajar dan kesulitan belajar kepada I-Smart Primaplus.</p>
+              </div>
+            </div>
+  
+            <div class="col text-center">
+              <div class="circle"><img src="./assets/keuntungan/5.png" alt="keuntungan-1"></div>
+              <div class="circle-text">
+                <h5>Monitoring Perkembangan Anak</h5>
+                <p>Orang tua dapat memonitor perkembangan belajar anaknya.</p>
+              </div>
+            </div>
+  
+            <div class="col text-center">
+              <div class="circle"><img src="./assets/keuntungan/6.png" alt="keuntungan-1"></div>
+              <div class="circle-text">
+                <h5>Memahami Skill Anak</h5>
+                <p>Orang tua dan anak dapat memahami lebih dalam skill unggulan nya sehingga dapat lebih tepat menentukan jurusan dalam Perguruan Tinggi.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Promo -->
+    <div class="screen-6">
+      <div class="row custom-screen d-flex align-items-center">
+        <div class="col-8">
+          <div class="text">
+            <h2>Dapatkan Big Promo</h2>
+            <h2>Rp 1.000.000 di bulan Juli ini</h2>
+          </div>
+          
+          <a href="#daftar" class="button-daftar">Daftar Sekarang</a>
+        </div>
+        <div class="col">
+          <img src="./assets/kids-book.jpg" alt="" class="rounded-circle">
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Testimonial -->
+    <div class="contaier-md text-center mt-5">
+      <h3>Testimoni</h3>
+      <h1>Apa yang mereka katakan tentang Primaplus</h1>
+    </div>
+      <div class="screen-testimonial">
+        <div class="container-fluid px-lg-4 px-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="testimonials">
+                  <div id="carousel1" class="owl-carousel">
+                      <div class="item">
+                          <div class="card text-center">
+                              <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                              <div class="card-body">
+                                  <h5>Nama Orang <br>
+                                      <span>Asal Sekolah</span>
+                                  </h5>
+                                  <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="card text-center">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5>Nama Orang <br>
+                                    <span>Asal Sekolah</span>
+                                </h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      
+                      <div class="item">
+                        <div class="card text-center">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5>Nama Orang <br>
+                                    <span>Asal Sekolah</span>
+                                </h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="card text-center">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5>Nama Orang <br>
+                                    <span>Asal Sekolah</span>
+                                </h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="card text-center">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5>Nama Orang <br>
+                                    <span>Asal Sekolah</span>
+                                </h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="card text-center">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                                <h5>Nama Orang <br>
+                                    <span>Asal Sekolah</span>
+                                </h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Daftar -->
+    <div id="daftar" class="container-md screen-daftar">
+      <div class="text-judul">
+        <!-- Silahkan ubah text di dalam <h3>...</h3> atau <h1>...</h1> atau <p>...</p> untuk mengubah text yang ditampilkan -->
+        <h3>Program Bimbel</h3>
+        <h1>Dapatkan Biaya Istimewa Untuk Pendapatan Hari Ini</h1>
+      </div>
+      <div class="bimbel-category mt-4">
+        <div class="btn-group d-flex" role="group">
+          <button id="sd" class="flex-fill active" onclick="showRequiredCategory(this)">
+            <div class="btn-sd">
+              Program Bimbel SD
+            </div>
+          </button>
+          <button id="smp" class="flex-fill" onclick="showRequiredCategory(this)">
+            <div class="btn-smp">
+              Program Bimbel SMP
+            </div>
+          </button>
+          <button id="ipa" class="flex-fill" onclick="showRequiredCategory(this)">
+            <div class="btn-ipa">
+              Program Bimbel SMA-IPA
+            </div>
+          </button>
+          <button id="ips" class="flex-fill" onclick="showRequiredCategory(this)">
+            <div class="btn-ips">
+              Program Bimbel SMA-IPS
+            </div>
+          </button>
+        </div>
+      </div>
+      <div class="category-sd container category showCategory">
+        <div class="jumbotron jumbotron-fluid mt-3">
+          <div class="container row">
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+              <img src="./assets/primagama-program_sd-300x267.jpg" alt="">
+            </div>
+            <div class="col-lg-8 col-sm-12 col-xs-12 pl-5 py-3">
+              <img src="./assets/logo.png" alt="">
+              <h1 class="mt-3">Program Bimbel Jenjang SD</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 3 SD</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas3%20SD" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 4 SD</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas4%20SD" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 5 SD</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas5%20SD" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 6 SD</h5>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas6%20SD" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-smp container category hideCategory">
+        <div class="jumbotron jumbotron-fluid mt-3">
+          <div class="container row">
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+              <img src="./assets/primagama-program_sd-300x267.jpg" alt="">
+            </div>
+            <div class="col-lg-8 col-sm-12 col-xs-12 pl-5 py-3">
+              <img src="./assets/logo.png" alt="">
+              <h1 class="mt-3">Program Bimbel Jenjang SMP</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 1 SMP</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas1%20SMP" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 2 SMP</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas2%20SMP" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 3 SMP</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas3%20SMP" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-ipa container category hideCategory">
+        <div class="jumbotron jumbotron-fluid mt-3">
+          <div class="container row">
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+              <img src="./assets/primagama-program_sd-300x267.jpg" alt="">
+            </div>
+            <div class="col-lg-8 col-sm-12 col-xs-12 pl-5 py-3">
+              <img src="./assets/logo.png" alt="">
+              <h1 class="mt-3">Program Bimbel Jenjang SMP</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 1 SMA</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas1%20SMA-IPA" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 2 SMA</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas2%20SMA-IPA" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 3 SMA</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas3%20SMA-IPA" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="category-ips container category hideCategory">
+        <div class="jumbotron jumbotron-fluid mt-3">
+          <div class="container row">
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+              <img src="./assets/primagama-program_sd-300x267.jpg" alt="">
+            </div>
+            <div class="col-lg-8 col-sm-12 col-xs-12 pl-5 py-3">
+              <img src="./assets/logo.png" alt="">
+              <h1 class="mt-3">Program Bimbel Jenjang SMP</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 1 SMA</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas1%20SMA-IPS" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 2 SMA</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas2%20SMA-IPS" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="card-title">KELAS 3 SMA</h3>
+                <h5 class="card-text mt-4">Fasilitas & Layanan</h5>
+                <p class="card-text">
+                  <ul class="px-5">
+                    <li>Master Book & Smart exercise : Tematik terpadu</li>
+                    <li>Smart Test (Try Out) per Tema</li>
+                    <li>Sistem belajar Offline & Online (Blended Learning)</li>
+                    <li>Laporan kehadiran & perkembangan belajar siswa</li>
+                    <li>Gratis Tanya & Konsultasi (Takon)</li>
+                  </ul>
+                </p>
+                <h2 class="card-text">Rp 2.900.000/tahun</h2>
+                <div class="daftar">
+                  <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus%20Kelas3%20SMA-IPS" class="btn">Daftar Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Screeen News -->
+    <div class="contaier-md text-center mt-5">
+      <h3>Berita Terkini</h3>
+      <h1>Dapatkan Biaya Istimewa Untuk Pendaftaran Hari Ini</h1>
+    </div>
+      <div class="screen-news">
+        <div class="container-fluid px-lg-4 px-md-4">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="news">
+                  <div id="carousel2" class="owl-carousel">
+                      <div class="item">
+                          <div class="card text-center p-3">
+                              <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                              <div class="card-body">
+                                  <h5>Judul Berita</h5>
+                                  <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="card text-center p-3">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5>Judul Berita</h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                      
+                      <div class="item">
+                        <div class="card text-center p-3">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5>Judul Berita</h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="card text-center p-3">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5>Judul Berita</h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="card text-center p-3">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5>Judul Berita</h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="item">
+                        <div class="card text-center p-3">
+                            <img src="./assets/kids-book.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                              <h5>Judul Berita</h5>
+                                <p class="card-text">
+                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
+                        </div>
+                      </div>
+                </div>  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="screen-contact container mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-4">
+          <div class="text">
+            <h5>Hubungi Kami dan Dapatkan Penawaran Istimewa</h5>
+            <h2>Primaplus Samarinda Seberang</h2>
+          </div>
+          <div class="button-daftar text-center mt-5">
+            <div class="daftar">
+              <a href="#daftar">Daftar Sekarang</a>
+            </div>
+            <p class="my-3">atau hubungi</p>
+            <div class="contact d-flex justify-content-around">
+              <a href="tel:+6285751158110" class="telp px-3 py-2">
+                <img src="./assets/telp.png" alt="">
+                085751158110
+              </a>
+              <a href="https://wa.me/6285751158110?text=Saya%20ingin%20daftar%20Bimbel%20Primaplus" class="wa px-3 py-2">
+                <img src="./assets/wa.png" alt="">
+                085751158110
+              </a>
+            </div>
+          </div>
+          <div class="social-media mt-5">
+            <h5>Sosial Media : </h5>
+            <div class="btn-sosmed mt-2">
+              <a href="#">
+                <img src="./assets/fb.png" alt="">
+              </a>
+              <a href="#">
+                <img src="./assets/twitter.png" alt="">
+              </a>
+              <a href="#">
+                <img src="./assets/ig.png" alt="">
+              </a>
+              <a href="#">
+                <img src="./assets/yt.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12 p-3">
+          <img src="./assets/maps.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <footer class="mt-5">
+      <div class="container text-center p-5">
+        <img src="./assets/logo.png" alt="">
+        <p>2020 Copyright All Rights Reserved Primaplus</p>
+      </div>
+    </footer>
+    
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <!-- Owl Carousel js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"></script>
+
+    <!-- Optional JavaScript -->
+    <script type="text/javascript" src="./js/main.js"></script>
+
+  </body>
+</html>
