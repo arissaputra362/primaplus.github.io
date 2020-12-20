@@ -651,7 +651,7 @@
 	text-transform: capitalize;
 	padding: 5px 15px;
     border-radius: 15px 15px 0 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     letter-spacing: 1px;
     background-color: #fff;
@@ -731,10 +731,14 @@
     padding: 0 1.25rem;
 }
 
+.category .card-body ul{
+    padding: 0 30px;
+}
+
 .category h5{
     text-align: center;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .category p{
@@ -742,7 +746,7 @@
 }
 
 .category h2{
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 770;
     margin-bottom: 20px;
@@ -750,7 +754,7 @@
 
 .category .card-body li{
     line-height: 1.2;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-top: 10px;
 }
 
@@ -936,7 +940,7 @@
 }
 
 .screen-contact .text h2{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 700;
 }
 
@@ -950,6 +954,10 @@
     color: #fff;
     cursor: pointer;
     text-decoration: none;
+}
+
+.screen-contact .button-daftar{
+    margin-top: 40px;
 }
 
 .screen-contact .button-daftar .daftar a{
@@ -991,13 +999,17 @@
     margin-right: 12px;
 }
 
+.screen-contact iframe{
+    width: 100%;
+    height: 100%;
+}
+
 footer{
     background: url(../assets/bot-bg.png);
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    display: block;
 }
 
 footer img{
@@ -1010,6 +1022,8 @@ footer p{
     font-size: 1rem;
     color: #fff;
 }
+
+
 
     @media screen and (max-width: 991.98px){
         #navbarNav li{
@@ -1133,6 +1147,140 @@ footer p{
         .screen-6 .col{
             margin-bottom: 30px;
         }
+
+        /* ---  Screen Testimonial --- */
+
+        .testimonials .card h5{
+            font-size: 20px;
+            line-height: 1.2;
+        }
+    
+        .testimonials .card h5 span{
+            font-size: 15px;
+        }
+
+        .testimonials .card p{
+            font-size: 14px;
+        }
+
+        /* Screen Daftar */
+        .bimbel-category .btn-group{
+            display: block !important;
+        }
+
+        .bimbel-category button{
+            width: 100%;
+            border-radius: 0;
+        }
+
+        .category .col-sm-4 img{
+            width: 100%;
+        }
+
+        .category .col-sm-8 img{
+            width: 40%;
+        }
+
+        .category .col-sm-8 h1{
+            font-size: 2.5rem;
+        }
+
+        .category .card-title{
+            padding: 0.25rem;
+            font-size: 1rem;
+        }
+
+        .category .card-text{
+            padding: 0 0.5rem;
+            margin: 0 !important;
+        }
+
+        .category h5{
+            font-size: 0.7rem;
+        }
+
+        .category .card-body ul{
+            padding: 0 15px 0 25px;
+        }
+
+        .category .card-body li{
+            font-size: 0.55rem;
+            margin-top: 10px;
+            margin-top: 5px;
+        }
+
+        .category h2{
+            font-size: 0.7rem;
+        }
+
+        .category .card .daftar{
+            padding: 0.45rem 0.5rem 1rem 0.5rem;
+        }
+
+        .category .card .btn{
+            font-size: 0.8rem;
+            padding: 0.2rem 0.6rem;
+        }
+         /* ---  Screen News --- */
+
+         .news .card p{
+             margin-top: 20px;
+         }
+
+         .news .card h5{
+            font-size: 20px;
+            line-height: 1.2;
+        }
+    
+        .news .card h5 span{
+            font-size: 15px;
+        }
+
+        .news .card p{
+            font-size: 14px;
+        }
+        
+        /* --- Screen Contact -- */
+        .screen-contact h5{
+            font-size: 0.8rem;
+        }
+
+        .screen-contact .text h2{
+            font-size: 1.7rem;
+        }
+
+        .screen-contact .button-daftar{
+            margin-top: 20px;
+            padding: 0 0;
+        }
+
+        .screen-contact .button-daftar a{
+            font-size: 0.7rem;
+            padding: 6px 10px;
+        }
+
+        .screen-contact .button-daftar .contact .wa{
+            margin-left: 20px;
+        }
+
+        .screen-contact .button-daftar .contact img{
+            height: 17px;
+        }
+
+        .screen-contact .btn-sosmed img{
+            width: 35px;
+            margin-right: 8px;
+        }
+
+        /* --  Footer --- */
+        footer img{
+            width: 200px;
+        }
+        
+        footer p{
+            margin: 10px 0 0 0;
+            font-size: .75rem;
+        }
     }
 
 
@@ -1145,6 +1293,10 @@ footer p{
     }
 
     @media (max-width: 670px){
+        h1{
+            line-height: 36px;
+        }
+
         a.button-daftar {
             width: 100%;
             text-align: center;
@@ -1212,6 +1364,83 @@ footer p{
         .screen-6{
             padding: 30px 0;
         }
+
+        /* --- Screen Daftar --- */
+        .screen-daftar .col-xs-12{
+            text-align: center;
+            padding: 10px !important;
+        }
+
+        .category .card-title{
+            padding: 0.4rem;
+            font-size: 1.7rem;
+        }
+
+        .category h5{
+            font-size: 1rem;
+        }
+
+        .category .card-body ul{
+            padding: 10px 25px 0 35px;
+        }
+
+        .category .card-body li{
+            font-size: .75rem;
+            margin-top: 10px;
+        }
+
+        .category h2{
+            font-size: 1.25rem;
+        }
+
+        .category .card .btn{
+            font-size: 1.3rem;
+            padding: 0.3rem 0.6rem;
+        }
+
+        /* --- Screen Contact --- */
+        .screen-contact h5{
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .screen-contact .text h2{
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        .screen-contact .button-daftar{
+            margin-top: 20px !important;
+            padding: 0 0;
+        }
+
+        .screen-contact .button-daftar a{
+            font-size: 1.25rem;
+            padding: 6px 10px;
+            width: 100%;
+        }
+
+        .screen-contact .contact{
+            display: block !important;
+        }
+
+        .screen-contact .button-daftar .contact .wa{
+            margin-top: 10px;
+            margin-left: 0;
+        }
+
+        .screen-contact .button-daftar .contact img{
+            height: 25px;
+        }
+
+        .screen-contact .btn-sosmed{
+            width: 100%;
+            text-align: center;
+        }
+        .screen-contact .btn-sosmed img{
+            width: 45px;
+        }
+
     }
 
     @media screen and (max-width: 450px){
